@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Section from '../components/Section';
 import Button from '../components/Button';
-import { communityInfo } from '../data/content';
 import { images } from '../data/images';
 
 export default function FloorPlans() {
@@ -98,7 +97,7 @@ export default function FloorPlans() {
           </motion.div>
 
           <motion.div variants={containerVariants} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {floorPlans[selectedBuilding].map((plan, idx) => (
+            {floorPlans[selectedBuilding].map((plan) => (
               <motion.div
                 key={plan.id}
                 variants={itemVariants}

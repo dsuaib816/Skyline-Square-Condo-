@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FileText, Download, MapPin, Calendar } from 'lucide-react';
+import { FileText, Download, MapPin } from 'lucide-react';
 import Section from '../components/Section';
 import Button from '../components/Button';
 import { documents } from '../data/content';
